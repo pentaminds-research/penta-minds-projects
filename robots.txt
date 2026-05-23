@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://research.pentaminds.in/sitemap.xml
+Sitemap: https://projects.pentaminds.in/sitemap.xml
