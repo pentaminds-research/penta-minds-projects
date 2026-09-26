@@ -2192,33 +2192,27 @@ line-height: 1;
 .contact-section {
   background: var(--navy);
   color: white;
+  text-align: left;
 }
-
-
-/* Heading */
 
 .contact-section .section-title {
   color: white;
+  text-align: left;
 }
-
-
-/* Description */
 
 .contact-description {
   max-width: 780px;
-
   margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
 
   color: rgba(255, 255, 255, .72);
-
   font-family: var(--body);
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.7;
+  text-align: left;
 }
-
-
-/* Email */
 
 .contact-section .email-link {
   color: var(--orange);
@@ -2234,17 +2228,15 @@ line-height: 1;
   margin-bottom: 28px;
 
   overflow-wrap: anywhere;
+  text-align: left;
 }
-
-
-/* Social buttons */
 
 .contact-section .social-row {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
+  justify-content: flex-start;
 }
-
 
 .contact-section .social-btn {
   align-items: center;
@@ -2263,31 +2255,14 @@ line-height: 1;
 
   font-weight: 800;
   text-decoration: none;
-
-  transition:
-    background .2s ease,
-    border-color .2s ease,
-    color .2s ease;
 }
-
-
-.contact-section .social-btn:hover {
-  background: var(--orange);
-  border-color: var(--orange);
-  color: white;
-}
-
-
-/* Affiliation */
 
 .contact-section .affiliation-line {
   color: rgba(255, 255, 255, .72);
-
   font-weight: 700;
-
   margin-top: 24px;
+  text-align: left;
 }
-
 @media (max-width: 680px) {
 
   .contact-description {
