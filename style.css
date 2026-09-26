@@ -1924,15 +1924,14 @@
 
 .contact-description {
   max-width: 780px;
-
   margin-top: 20px;
-
   color: rgba(255, 255, 255, .72);
-
   font-family: var(--body);
   font-size: 1rem;
   font-weight: 600;
   line-height: 1.7;
+  position:relative;
+  margin-left:40px;
 }
 
 
