@@ -1903,7 +1903,123 @@
       transform: rotate(-45deg);
     }
 
-      
+    /* =========================================
+   PROJECTS DIVISION — CONTACT SECTION
+   ========================================= */
+
+.contact-section {
+  background: var(--navy);
+  color: white;
+}
+
+
+/* Heading */
+
+.contact-section .section-title {
+  color: white;
+}
+
+
+/* Description */
+
+.contact-description {
+  max-width: 780px;
+
+  margin-top: 20px;
+
+  color: rgba(255, 255, 255, .72);
+
+  font-family: var(--body);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+
+/* Email */
+
+.contact-section .email-link {
+  color: var(--orange);
+
+  display: inline-block;
+
+  font-family: var(--heading);
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 800;
+  line-height: 1.08;
+
+  margin-top: 20px;
+  margin-bottom: 28px;
+
+  overflow-wrap: anywhere;
+}
+
+
+/* Social buttons */
+
+.contact-section .social-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+
+.contact-section .social-btn {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, .18);
+  border-radius: 999px;
+
+  color: white;
+
+  display: inline-flex;
+  justify-content: center;
+
+  min-height: 36px;
+  min-width: 36px;
+
+  padding: 7px 12px;
+
+  font-weight: 800;
+  text-decoration: none;
+
+  transition:
+    background .2s ease,
+    border-color .2s ease,
+    color .2s ease;
+}
+
+
+.contact-section .social-btn:hover {
+  background: var(--orange);
+  border-color: var(--orange);
+  color: white;
+}
+
+
+/* Affiliation */
+
+.contact-section .affiliation-line {
+  color: rgba(255, 255, 255, .72);
+
+  font-weight: 700;
+
+  margin-top: 24px;
+}
+
+@media (max-width: 680px) {
+
+  .contact-description {
+    max-width: 100%;
+    font-size: 0.98rem;
+  }
+
+  .contact-section .social-row {
+    justify-content: flex-start;
+  }
+
+}
+
+
     @media (max-width: 920px) {
           
       .menu-toggle {
