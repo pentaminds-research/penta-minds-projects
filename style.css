@@ -2032,6 +2032,39 @@
         }
         
 
+.survey-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.survey-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 13px;
+  border: 1px solid #dfe3ea;
+  border-radius: 999px;
+  background: #f8f9fc;
+  color: #1b2a4a;
+  font: 500 12px/1 "Inter", sans-serif;
+}
+
+.survey-badge svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.survey-badge strong {
+  font-weight: 700;
+  margin-right: 2px;
+}
+
     @media (max-width: 680px) {
           
       .container {
