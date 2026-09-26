@@ -1653,7 +1653,7 @@
 
     .email-link {
           
-      color: var(--white);
+      color: var(--orange);
           
       display: inline-flex;
           
@@ -1673,7 +1673,7 @@
 
     .email-link:hover {
           
-      color: var(--orange);
+      color: var(--white);
           
     
         }
@@ -2063,6 +2063,11 @@
 .survey-badge strong {
   font-weight: 700;
   margin-right: 2px;
+}
+
+#ri{
+  position: relative;
+  left: 175px;
 }
 
     @media (max-width: 680px) {
